@@ -7,5 +7,5 @@ https://git-lfs.github.com/
 
 Entries from Phabricator:
 
-https://phabricator.kde.org/T14540
-https://phabricator.kde.org/T15844
+- https://phabricator.kde.org/T14540
+- https://phabricator.kde.org/T15844
