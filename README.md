@@ -12,6 +12,8 @@ https://git-lfs.github.com/
 This section is for developers who wish to add files to this repo.
 All the commands listed below must be typed into a shell after changing to the directory holding this README.
 
+You must install Git LFS on your system. For Ubuntu, uses "sudo apt install git-lfs".
+
 ### One-time setup (on each machine)
 
 In the directory containing this README, type:
