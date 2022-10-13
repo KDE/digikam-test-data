@@ -1,6 +1,6 @@
 # digiKam Test Data
 
-Data required to support running unit tests for Digikam
+Data required to support running unit tests for digiKam
 
 # Git Large File Storage (Git LFS)
 
@@ -9,7 +9,8 @@ https://git-lfs.github.com/
 
 ## Working with Git LFS
 
-This section is for developers who wish to add files to this repo.  All the commands listed below must be typed into a shell after changing to the directory holding this README.
+This section is for developers who wish to add files to this repo.
+All the commands listed below must be typed into a shell after changing to the directory holding this README.
 
 ### One-time setup (on each machine)
 
@@ -19,7 +20,8 @@ In the directory containing this README, type:
 
 ### Check the files tracked
 
-Git LFS identifies a "large file" by pattern matching.  This is often via a file extension, but can also be used to track entire directories.
+Git LFS identifies a "large file" by pattern matching.
+This is often via a file extension, but can also be used to track entire directories.
 
 Before comitting a large test file -- including any image, video, audio file -- do check that the
 file extension is one that is currently tracked by LFS using:
@@ -28,12 +30,12 @@ file extension is one that is currently tracked by LFS using:
 
 ### Add file tracking pattern
 
-To add a new extension "ext": 
+To add a new extension "ext":
 
         git lfs track "*.ext"
 
-The current set of tracked file extensions is located in file .gitattributes.  Thus the above command will update .gitattributes and you need to commit that change.
-
+The current set of tracked file extensions is located in file .gitattributes.
+Thus the above command will update .gitattributes and you need to commit that change.
 
 ### Add a new file
 
@@ -67,3 +69,4 @@ Entries from Phabricator:
 
 - https://phabricator.kde.org/T14540
 - https://phabricator.kde.org/T15844
+
