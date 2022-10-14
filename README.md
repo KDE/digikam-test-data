@@ -78,6 +78,10 @@ Commit, push and work with the files normally:
 
 * Data test files to check the database low level operations.
 
+## core/tests/dimg
+
+* Data test files to check the digiKam DImg API.
+
 # Rationale
 
 Entries from Phabricator:

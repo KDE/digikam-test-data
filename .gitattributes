@@ -26,3 +26,4 @@ database/* filter=lfs diff=lfs merge=lfs -text
 *.PGF filter=lfs diff=lfs merge=lfs -text
 *.sql filter=lfs diff=lfs merge=lfs -text
 *.SQL filter=lfs diff=lfs merge=lfs -text
+dimg/* filter=lfs diff=lfs merge=lfs -text
