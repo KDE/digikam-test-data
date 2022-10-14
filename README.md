@@ -65,6 +65,10 @@ Commit, push and work with the files normally:
 * mpeg4.mp4
   - created using ffmpeg -i basemediav1.mp4 -vcodec mpeg4 mpeg4.mp4
 
+## core/tests/metadataengine
+
+* Data test files (RAW, JPEG, PNG, TIF, etc.) to check Metadata Engine functionalities.
+
 # Rationale
 
 Entries from Phabricator:
