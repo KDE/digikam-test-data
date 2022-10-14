@@ -68,7 +68,11 @@ Commit, push and work with the files normally:
 
 ## core/tests/metadataengine
 
-* Data test files (RAW, JPEG, PNG, TIF, etc.) to check Metadata Engine functionalities.
+* Data test files (RAW, JPEG, PNG, TIF, etc.) to check the file metadata engine functionalities.
+
+## core/tests/albummodel
+
+* Data test files to check the database album model functionalities.
 
 # Rationale
 
