@@ -1,6 +1,7 @@
 # digiKam Test Data
 
-Data required to support running unit tests for digiKam
+Data required to support running unit tests for digiKam source code reprository.
+https://invent.kde.org/graphics/digikam/-/tree/master/core/tests
 
 # Git Large File Storage (Git LFS)
 
@@ -75,4 +76,3 @@ Entries from Phabricator:
 
 - https://phabricator.kde.org/T14540
 - https://phabricator.kde.org/T15844
-
