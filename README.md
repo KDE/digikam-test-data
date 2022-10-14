@@ -74,6 +74,10 @@ Commit, push and work with the files normally:
 
 * Data test files to check the database album model functionalities.
 
+## core/tests/database
+
+* Data test files to check the database low level operations.
+
 # Rationale
 
 Entries from Phabricator:
