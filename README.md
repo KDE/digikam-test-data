@@ -29,13 +29,13 @@ This is often via a file extension, but can also be used to track entire directo
 Before comitting a large test file -- including any image, video, audio file -- do check that the
 file extension is one that is currently tracked by LFS using:
 
-        git lfs track
+      git lfs track
 
 ### Add file tracking pattern
 
 To add a new extension "ext":
 
-        git lfs track "*.ext"
+      git lfs track "*.ext"
 
 The current set of tracked file extensions is located in file .gitattributes.
 Thus the above command will update .gitattributes and you need to commit that change.
@@ -81,6 +81,10 @@ Commit, push and work with the files normally:
 ## core/tests/dimg
 
 * Data test files to check the digiKam DImg API.
+
+## core/tests/faceengine
+
+* Data test files for Faces Engine detections and recognitions..
 
 # Rationale
 
