@@ -90,6 +90,10 @@ Commit, push and work with the files normally:
 
 * Data test files for Geolocation editor and corelator.
 
+## core/tests/imgqsort
+
+* Data test files for Image Quality Sorting.
+
 # Rationale
 
 Entries from Phabricator:

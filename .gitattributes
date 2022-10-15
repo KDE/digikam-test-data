@@ -37,3 +37,6 @@ facesengine/* filter=lfs diff=lfs merge=lfs -text
 *.GPX filter=lfs diff=lfs merge=lfs -text
 geoiface/* filter=lfs diff=lfs merge=lfs -text
 editor/* filter=lfs diff=lfs merge=lfs -text
+*.sh filter=lfs diff=lfs merge=lfs -text
+*.SH filter=lfs diff=lfs merge=lfs -text
+imgqsort/* filter=lfs diff=lfs merge=lfs -text
