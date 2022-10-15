@@ -102,6 +102,10 @@ Commit, push and work with the files normally:
 
 * Data test files for MediaWiki client server test cases.
 
+## core/tests/timestampupdate
+
+* Data test files for the database time-stamp update test cases.
+
 # Rationale
 
 Entries from Phabricator:

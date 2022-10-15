@@ -44,3 +44,4 @@ iojobs/* filter=lfs diff=lfs merge=lfs -text
 *.rc filter=lfs diff=lfs merge=lfs -text
 *.RC filter=lfs diff=lfs merge=lfs -text
 mediawiki/* filter=lfs diff=lfs merge=lfs -text
+timestampupdate/* filter=lfs diff=lfs merge=lfs -text
