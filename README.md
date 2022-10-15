@@ -84,7 +84,11 @@ Commit, push and work with the files normally:
 
 ## core/tests/faceengine
 
-* Data test files for Faces Engine detections and recognitions..
+* Data test files for Faces Engine detections and recognitions.
+
+## core/tests/geolocation
+
+* Data test files for Geolocation editor and corelator.
 
 # Rationale
 
