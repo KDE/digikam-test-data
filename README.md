@@ -98,6 +98,10 @@ Commit, push and work with the files normally:
 
 * Data test files for database input output jobs with managed media.
 
+## core/tests/mediawiki
+
+* Data test files for MediaWiki client server test cases.
+
 # Rationale
 
 Entries from Phabricator:
