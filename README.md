@@ -94,6 +94,10 @@ Commit, push and work with the files normally:
 
 * Data test files for Image Quality Sorting.
 
+## core/tests/iojobs
+
+* Data test files for database input output jobs with managed media.
+
 # Rationale
 
 Entries from Phabricator:
