@@ -70,6 +70,10 @@ Commit, push and work with the files normally:
 
 * Data test files (RAW, JPEG, PNG, TIF, etc.) to check the file metadata engine functionalities.
 
+## core/tests/advancerename
+
+* Data test files for the Advance Rename tool core engine.
+
 ## core/tests/albummodel
 
 * Data test files to check the database album model functionalities.
