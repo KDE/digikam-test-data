@@ -90,6 +90,10 @@ Commit, push and work with the files normally:
 
 * Data test files for Faces Engine detections and recognitions.
 
+## core/tests/fileio
+
+* Data test files for file input output stream.
+
 ## core/tests/geolocation
 
 * Data test files for Geolocation editor and corelator.

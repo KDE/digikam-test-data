@@ -46,3 +46,4 @@ iojobs/* filter=lfs diff=lfs merge=lfs -text
 mediawiki/* filter=lfs diff=lfs merge=lfs -text
 timestampupdate/* filter=lfs diff=lfs merge=lfs -text
 advancerename/* filter=lfs diff=lfs merge=lfs -text
+fileio/* filter=lfs diff=lfs merge=lfs -text
