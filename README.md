@@ -1,12 +1,10 @@
 # digiKam Test Data
 
-Data required to support running unit tests for digiKam source code reprository.
-https://invent.kde.org/graphics/digikam/-/tree/master/core/tests
+![](logo.png) Data required to run unit-tests for [digiKam source code repository](https://invent.kde.org/graphics/digikam/-/tree/master/core/tests)
 
 # Git Large File Storage (Git LFS)
 
-This reprository use Git-lfs to handle large file storage
-https://git-lfs.github.com/
+This reprository use [Git-lfs](https://git-lfs.github.com/) to handle large file storage
 
 ## Working with Git LFS
 
