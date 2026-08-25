@@ -92,6 +92,19 @@ Commit, push and work with the files normally:
 
 * Data test files for file input output stream.
 
+* corrupt_jpeg_no_image.jpg
+  - A deliberately malformed 22-byte JPEG: SOI + a valid JFIF APP0 segment + EOI,
+    with no frame header, no Huffman tables and no entropy-coded scan. Every
+    JPEG decoder rejects it, so it is a deterministic "unloadable file" input for
+    failed-thumbnail / failed-load test cases. It is not a truncated photo: the
+    file is complete and structurally well-formed at the marker level, which
+    keeps the failure at the decoder rather than at end-of-file.
+  - Byte-exact, no tooling required (SHA-256
+    d20f6ffd523b78a86cd2f916fa34af5d1918d75f7b142237c752ad6b254213ab):
+
+        python3 -c 'open("corrupt_jpeg_no_image.jpg","wb").write(bytes.fromhex(
+            "ffd8" "ffe000104a46494600010100000100010000" "ffd9"))'
+
 ## core/tests/geolocation
 
 * Data test files for Geolocation editor and corelator.
