@@ -105,6 +105,23 @@ Commit, push and work with the files normally:
         python3 -c 'open("corrupt_jpeg_no_image.jpg","wb").write(bytes.fromhex(
             "ffd8" "ffe000104a46494600010100000100010000" "ffd9"))'
 
+* roi_test_image.pgf
+  - Lossless PGF (quality 0) with the pre-header ROI flag set (version byte 0x7E),
+    4 channels, mode RGBA: the pixels of test.png (256x170 RGB) plus a constant
+    alpha plane, encoded with the libpgf encoder (SetHeader(header, PGFROI)).
+    Positive decode case for the ROI path: PGFUtils::readPGFImageData loads it
+    successfully, and the patched and unpatched decoder produce identical output.
+  - SHA-256 4f7445e358332251bc285226db956dd697dffdfe5707debeb758c31ba24830b2.
+
+* corrupt_pgf_roi_buffersize.pgf
+  - roi_test_image.pgf with the first ROI block header's bufferSize field set to
+    0x7FFF (two changed bytes at offset 34). With the unpatched vendored libpgf,
+    decoding reads and writes out of bounds in CDecoder::CMacroBlock::BitplaneDecode
+    (ASan heap-buffer-overflow); the patched decoder (see digikam!513)
+    rejects it with FormatCannotRead. Negative regression case for that fix:
+    PGFUtils::readPGFImageData must return false without crashing.
+  - SHA-256 ee27a8aa573617165d875f2a791e5efa382cdb3c860a37c2280495d8c520a74a.
+
 ## core/tests/geolocation
 
 * Data test files for Geolocation editor and corelator.
